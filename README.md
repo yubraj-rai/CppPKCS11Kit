@@ -3,30 +3,7 @@ CppPKCS11Kit is a robust, modular, and thread-safe C++14 application designed to
 
 ---
 
-## ✨ Key Features
-
-### PKCS#11 Wrapper (`pkcs11_wrapper`)
-
-* Loads PKCS#11 shared library dynamically
-* Provides RAII-based session management
-* Converts `CK_RV` codes into `PKCS11Exception`
-
-### Crypto Manager (`crypto_manager`)
-
-* Thread-local PKCS#11 session management
-* Task-oriented methods for RSA, AES, SHA-256 operations
-
-### Cryptographic Capabilities
-
-* **RSA**: Key gen, sign/verify, encrypt/decrypt
-* **AES**: CBC mode encryption/decryption
-* **SHA-256**: Hashing support
-
----
-
-## 🧠 How It Works
-
-### Layered Architecture
+## How It Works
 
 #### 1. **Configuration Layer**
 
@@ -61,7 +38,7 @@ CppPKCS11Kit is a robust, modular, and thread-safe C++14 application designed to
 
 ---
 
-## 🧪 Cryptographic Operations Demonstrated
+## Cryptographic Operations
 
 ### RSA Key Generation
 
@@ -99,7 +76,7 @@ std::vector<CK_BYTE> hash = sha256_digest_on_token(data);
 
 ---
 
-## 🛠️ Getting Started on Ubuntu
+## Getting Started on Ubuntu
 
 ### 1. 📋 Install Prerequisites
 
