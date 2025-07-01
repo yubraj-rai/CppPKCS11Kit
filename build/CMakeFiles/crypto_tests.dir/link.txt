@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/crypto_tests.dir/test/crypto_tests.cpp.o CMakeFiles/crypto_tests.dir/src/core/pkcs11_wrapper.cpp.o CMakeFiles/crypto_tests.dir/src/core/crypto_manager.cpp.o CMakeFiles/crypto_tests.dir/src/utils/hex_utils.cpp.o -o bin/crypto_tests  -Wl,-rpath,/usr/lib/softhsm /usr/local/lib/libgtest_main.a /usr/lib/softhsm/libsofthsm2.so /usr/local/lib/libgtest.a 
